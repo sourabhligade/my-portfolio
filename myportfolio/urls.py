@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
+    path('', include('portfolio.urls')),  # Redirect to portfolio app
     path('admin/', admin.site.urls),
     path('portfolio/', include('portfolio.urls')),
 
