@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* CSS rules */
+body {
+    background-color: #f0f0f0; /* Set background color */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    display: flex;
+    max-width: 800px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add padding around content */
+    background-color: #fff; /* Set background color for container */
+    border-radius: 10px; /* Add border radius */
+}
+
+h1 {
+    color: #333; /* Set text color */
+    margin-left: 200px;
+    margin-top: 320px;
+    margin-bottom: ;
+    size:4cm;
+}
+
+/* Change the color of the word "Developer" to light blue */
+h1 span.developer {
+    color: #3498db; /* Light blue color */
+}
+
+.image-container {
+    margin-left: 22cm; /* Move image container to the right */
+    margin-top: -9cm;
+}
+.image-container img {
+    width: 450px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Add spacing between image and h1 */
+}
+
+.container {
+    position: relative;
+}
+
+.image-container {
+    margin-bottom: 20px; /* Add margin to create space between image and paragraphs */
+}
+
+
+.intro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 8cm;
+    color: #4e4343;
+}
+
+
+
+.skills {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 4cm;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 5cm;
+    margin-top: 2.8cm;
+}
+
+h2{
+    margin-right: ;
+}
+
+.category {
+    flex: 1;
+    margin: 10px;
+    margin-top: 2.5cm;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+
+.category:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Increase size by 5% on hover */
+
+}
+
+.category-title {
+    text-align: center; /* Center the title horizontally */
+    
+}
+.skills-title {
+    text-align: center; /* Center the title horizontally */
+    width: 100%; /* Ensure the title takes full width */
+    margin-right: 41cm;
+    margin-bottom: 20px; /* Add some space below the title */
+
+}
+.category ul {
+    padding-left: 0; /* Remove default padding */
+    list-style: none; /* Remove default bullet points */
+}
+
+.category ul li {
+    margin-bottom: 10px; /* Add space between each skill */
+}

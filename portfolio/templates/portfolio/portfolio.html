@@ -1,17 +1,106 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <h1>Sourabh Vivekanand Ligade
-        
-        <h2>Projects</h2>
 
-        1.Wormyreads.com
+
+    <h1>Hi there, I'm Sourabh.<br>
+        Software <span class="developer">Developer</span>,<br>
+        Learner and an Avid Reader
     </h1>
+
+
+    <div class="image-container">
+        <img src="{% static 'images/myphoto.png' %}" alt="Your Image">
+    </div>
+
+
+    <div class="intro">
+        <p>
+            I've graduated from Pune University with a Statistics Major.
+        </p>
+        <p>
+            Several years ago, I wanted to build my first web application. I had been doing
+            light web development work (landing pages, contact forms) for a while, and
+            wanted to see if I could build something more interactive. That's when I came across Python and its powerful frameworks that hooked me into development.
+        </p>
+        <p>
+            As I've grown as a developer, I've worked with senior developers who have raised my standards for what's expected of any web application.
+        </p>
+        <p>
+            Through these experiences, I've had the opportunity to create memorable products that are not only enjoyable to use but are written in code that's maintainable and easy to understand.
+        </p>
+        </div>
+
+        <div class="skills">
+            <h2>My Skills</h2>
+            <p>Throughout my academic and professional journey, I have actively engaged in various projects and initiatives, which have significantly contributed to my development as a software developer. </p>
+            <p>Additionally, I devote time to practicing competitive programming on platforms such as LeetCode. This not only sharpens my algorithmic thinking but also enhances my ability to tackle complex problems efficiently.</p>
+            Overall, my combined experiences in project work and competitive programming have been instrumental in shaping my skills as a developer.
+            <div class="category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>Django (ORM | Extensions)</li>
+                    <li>REST</li>
+                    <li>Numpy</li>
+                    <li>Flask</li>
+                    <li>Pandas</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <h3>DevOps</h3>
+                <ul>
+                    <li>Docker</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Gunicorn</li>
+                    <li>Whitenoise</li>
+                </ul>
+            </div>
+        
+            <div class="category">
+                <h3>Coursework</h3>
+                <ul>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Machine Learning</li>
+                    <li>AI</li>
+                    <li>System Design</li>
+                    <li>Statistics</li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <h3>Cloud</h3>
+                <ul>
+                    <li>PythonAnywhere</li>
+                    <li>Heroku</li>
+                    <li>Render</li>
+                    
+                </ul>
+            </div>
+        </div>
+        
     <div>
+
+
+
         {% for project in projects %}
             <h2>{{ project.title }}</h2>
             <p>{{ project.description }}</p>
