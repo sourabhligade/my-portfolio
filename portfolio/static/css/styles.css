@@ -6,6 +6,23 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 10px; /* Add padding to the navbar */
+}
+
+.navbar a {
+    margin-right: 16px; /* Add spacing between buttons */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+}
+.navbar a:hover {
+    color: #3498db; /* Change text color on hover */
+}
+
+
+
 .container {
     display: flex;
     max-width: 800px; /* Set maximum width for content */
@@ -46,6 +63,9 @@ h1 span.developer {
     margin-bottom: 20px; /* Add margin to create space between image and paragraphs */
 }
 
+.highlight {
+    color: #3498db; /* Set text color to light blue */
+}
 
 .intro {
     width: 80%;
@@ -57,7 +77,26 @@ h1 span.developer {
     margin-left: 8cm;
     color: #4e4343;
 }
+.myskills {
+    color: black; /* Set text color to black */
+   margin-left: 4cm;
+   font-size: 23px;
+   
+}
 
+
+.skillintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 7cm;
+    color: #4e4343;
+    margin-top: 0cm;
+    
+}
 
 
 .skills {
@@ -68,30 +107,36 @@ h1 span.developer {
     max-width: 1200px;
     margin: 0 auto;
     margin-right: 5cm;
-    margin-top: 2.8cm;
+    margin-top: 3cm;
+    color: #4e4343;
+    
+   
 }
 
-h2{
-    margin-right: ;
-}
 
 .category {
     flex: 1;
-    margin: 10px;
+    margin: 10px auto; /* Adjusted margin to center the boxes */
     margin-top: 2.5cm;
-    padding: 20px;
+    padding: 8px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
     text-align: center;
     background-color: #000; /* Set background color to black */
     color: #fff; /* Set text color to white */
+    margin-left: 2cm;
+    margin-top: 1cm;
+       
 }
+
+
 
 
 .category:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: scale(1.05); /* Increase size by 5% on hover */
+    color: #3498db;
 
 }
 
@@ -99,13 +144,7 @@ h2{
     text-align: center; /* Center the title horizontally */
     
 }
-.skills-title {
-    text-align: center; /* Center the title horizontally */
-    width: 100%; /* Ensure the title takes full width */
-    margin-right: 41cm;
-    margin-bottom: 20px; /* Add some space below the title */
 
-}
 .category ul {
     padding-left: 0; /* Remove default padding */
     list-style: none; /* Remove default bullet points */

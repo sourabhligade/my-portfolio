@@ -2,11 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="#">Home</a>
+            <a href="#myskills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+    </div>
 
 
     <h1>Hi there, I'm Sourabh.<br>
@@ -22,26 +34,29 @@
 
     <div class="intro">
         <p>
-            I've graduated from Pune University with a Statistics Major.
+            I've graduated from Pune University with a <span class="highlight">Statistics</span> Major.
         </p>
         <p>
             Several years ago, I wanted to build my first web application. I had been doing
             light web development work (landing pages, contact forms) for a while, and
-            wanted to see if I could build something more interactive. That's when I came across Python and its powerful frameworks that hooked me into development.
+            wanted to see if I could build something more interactive. That's when I came across Python and its powerful frameworks that <span class="highlight">hooked me into development.</span>
         </p>
         <p>
             As I've grown as a developer, I've worked with senior developers who have raised my standards for what's expected of any web application.
         </p>
         <p>
-            Through these experiences, I've had the opportunity to create memorable products that are not only enjoyable to use but are written in code that's maintainable and easy to understand.
+            Through these experiences, I've had the opportunity to create memorable products that are not only enjoyable to use but are <span class="highlight">written in code that's maintainable and easy to understand.</span>
         </p>
         </div>
 
-        <div class="skills">
-            <h2>My Skills</h2>
+        <div id="myskills" class="skills">
+            <h2><span class="myskills">My Skills</span></h2>
+            
+            <div class="skillintro">
             <p>Throughout my academic and professional journey, I have actively engaged in various projects and initiatives, which have significantly contributed to my development as a software developer. </p>
-            <p>Additionally, I devote time to practicing competitive programming on platforms such as LeetCode. This not only sharpens my algorithmic thinking but also enhances my ability to tackle complex problems efficiently.</p>
+            <p>Additionally, I devote time to practicing competitive programming on platforms such as <span class="highlight">LeetCode</span>. This not only sharpens my <span class="highlight">algorithmic thinking</span>  but also enhances my ability to <span class="highlight">tackle complex problems efficiently.</span></p>
             Overall, my combined experiences in project work and competitive programming have been instrumental in shaping my skills as a developer.
+            </div>
             <div class="category">
                 <h3>Programming Languages</h3>
                 <ul>
@@ -94,6 +109,7 @@
                     <li>Render</li>
                     
                 </ul>
+                
             </div>
         </div>
         
