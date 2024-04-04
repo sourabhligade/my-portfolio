@@ -5,7 +5,7 @@ from django.db import models
 class Project(models.Model):
     title=models.CharField(max_length=343)
     description=models.CharField(max_length=1000)
-    image=models.ImageField(upload_to='projectimages/')
+    image=models.ImageField(upload_to='media/projectimages/')
 
     def __str__(self) -> str:
         return self.title   
