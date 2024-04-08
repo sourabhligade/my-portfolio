@@ -8,7 +8,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', include('portfolio.urls')),  # Redirect to portfolio app
     path('admin/', admin.site.urls),
-    path('portfolio/', include('portfolio.urls')),
+    #path('portfolio/', include('portfolio.urls')),
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
