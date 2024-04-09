@@ -1,6 +1,9 @@
 <!-- project_detail.html -->
 <div class="project-detail">
-    <h2>{{ project.title }}</h2>
-    <p>{{ project.description }}</p>
+    
+    {% if project.title == "Wormyreads" %}
+    {% include 'portfolio/wormyreads_detail.html' %}
+{% endif %}
+
     <!-- Add more project details as needed -->
 </div>

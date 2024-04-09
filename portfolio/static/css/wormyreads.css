@@ -1,0 +1,124 @@
+/* wormyreads.css */
+
+/* CSS rules */
+body {
+    background-color: #f0f0f0; /* Set background color */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-detail h2 {
+    font-size: 44px; /* Adjust the font size as needed */
+    margin-top: 65px;
+    margin-left: 80px;
+}
+
+
+.wormyreadsintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 70px;
+    color: #4e4343;
+    margin-left: 80px;
+}
+
+.wormyreadsstack {
+    display: flex;
+   margin-left: 80px;
+   margin-top: 70px;
+   max-width: 65%;
+}
+
+.wormyreadsstack .row {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.wormyreadsstack h3 {
+    color: #000;
+}
+
+.wormyreadsstack ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.wormyreadsstack ul li {
+    margin-bottom: 10px;
+}
+
+.project-detail img {
+    display: block; /* Ensures the image is centered */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image does not exceed its container width */
+    height: auto; /* Allows the image to scale proportionally */
+    max-height: 600px; /* Sets the maximum height of the image */
+    margin-top: 70px;
+    border-radius: 10px; /* Adds curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 32); /* Increased shadow effect */
+}
+.highlight {
+    color: #3498db; /* Define the color for highlighted words */
+}
+
+.goal {
+    margin: 0 auto;
+    max-width: 900px; /* Maximum width of the sections */
+    text-align: justify; /* Justify text for a more formal appearance */
+    color: #4e4343;
+    margin-top: 70px;
+    margin-bottom: 50px; /* Adjust as needed */
+    padding: 0 80px; /* Add padding to match the margin */
+    text-align: left;
+    margin-left: 4px;
+    line-height: 1.5; 
+    float: left;
+}
+
+
+.web {
+    margin: 0 auto;
+    max-width: 900px; /* Maximum width of the sections */
+    text-align: justify; /* Justify text for a more formal appearance */
+    color: #4e4343;
+    margin-top: 70px;
+    margin-bottom: 50px; /* Adjust as needed */
+    padding: 0 80px; /* Add padding to match the margin */
+    text-align: left;
+    float: right;
+    margin-right: -13px;
+    line-height: 1.5; 
+
+}
+.goal h4,
+.web h4 {
+    color: black; /* Set the color of the h4 elements to black */
+}
+
+
+.logoimages {
+    max-width: 1000px; /* Adjust as needed */
+    margin: 0 auto;
+    margin-top: 580px;
+    margin-left: 150px;
+}
+
+.logoimages img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure each image is displayed as a block element */
+    margin-bottom: 20px; /* Add space between each logo image */
+    transition: box-shadow 0.3s, border 0.3s; /* Smooth transition effect */
+    background-color: transparent; /* Set background color to transparent */
+    padding: 8px;
+    transition: box-shadow 0.3s, border 0.3s; /* Smooth transition effect */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Very light shadow */
+    border: 1px solid transparent;
+
+}
+
+.logoimages img:hover {
+    border-color: rgba(0, 0, 0, 0.1); /* Change the border color on hover */
+}
