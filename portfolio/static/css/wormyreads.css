@@ -122,3 +122,25 @@ body {
 .logoimages img:hover {
     border-color: rgba(0, 0, 0, 0.1); /* Change the border color on hover */
 }
+.projectimages img {
+    display: inline-block; /* Display images as inline-block to allow side by side */
+    max-width: 80%; /* Ensures the image does not exceed its container width */
+    max-height: 600px; /* Sets the maximum height of the image */
+    border-radius: 10px; /* Adds curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.32); /* Increased shadow effect */
+}
+
+.genre1,
+.genre2 {
+    width: 41%; /* Set width to 40% to fit side by side */
+}
+
+.genre1 {
+    margin-right: 10px; /* Add space to the right of the first image */
+}
+
+.genre2 {
+    margin-left: 10px; /* Add space to the left of the second image */
+}
+
+
