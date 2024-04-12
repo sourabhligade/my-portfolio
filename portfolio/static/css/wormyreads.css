@@ -124,7 +124,7 @@ body {
 }
 .projectimages img {
     display: inline-block; /* Display images as inline-block to allow side by side */
-    max-width: 80%; /* Ensures the image does not exceed its container width */
+    max-width: 80%; /* Ensures the image does not ebjkbxceed its container width */
     max-height: 600px; /* Sets the maximum height of the image */
     border-radius: 10px; /* Adds curved edges */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.32); /* Increased shadow effect */
