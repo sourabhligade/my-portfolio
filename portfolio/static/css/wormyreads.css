@@ -1,13 +1,10 @@
-/* wormyreads.css */
-
-/* CSS rules */
 body {
-    background-color: #f0f0f0; /* Set background color */
+    background-color: #f0f0f0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .project-detail h2 {
-    font-size: 44px; /* Adjust the font size as needed */
+    font-size: 44px; 
     margin-top: 65px;
     margin-left: 80px;
 }
@@ -15,10 +12,10 @@ body {
 
 .wormyreadsintro {
     width: 80%;
-    margin: 0 auto; /* Center paragraphs horizontally */
-    line-height: 1.5; /* Set line height for better readability */
-    max-width: 900px; /* Maximum width of intro section */
-    text-align: justify; /* Justify text for a more formal appearance */
+    margin: 0 auto; 
+    line-height: 1.5; 
+    max-width: 900px; 
+    text-align: justify; 
     margin-top: 70px;
     color: #4e4343;
     margin-left: 80px;
@@ -122,13 +119,17 @@ body {
 .logoimages img:hover {
     border-color: rgba(0, 0, 0, 0.1); /* Change the border color on hover */
 }
+
+
 .projectimages img {
     display: inline-block; /* Display images as inline-block to allow side by side */
-    max-width: 80%; /* Ensures the image does not ebjkbxceed its container width */
-    max-height: 600px; /* Sets the maximum height of the image */
+    max-width: 100%; /* Ensures the image does not ebjkbxceed its container width */
+    max-height: 1900px; /* Sets the maximum height of the image */
     border-radius: 10px; /* Adds curved edges */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.32); /* Increased shadow effect */
-}
+    margin-top: 70px;
+    }
+
 
 .genre1,
 .genre2 {
@@ -137,10 +138,64 @@ body {
 
 .genre1 {
     margin-right: 10px; /* Add space to the right of the first image */
+    float: left;
+    margin-left: 72px;
 }
 
 .genre2 {
     margin-left: 10px; /* Add space to the left of the second image */
+    float: right;
 }
 
 
+
+
+.problems-container {
+    float: none; /* Float the problem container to the left */
+    width: 50%; /* Set the width to 50% to allow space for the images */
+    text-align: center;
+    margin-top: 618px;
+    margin-left: 330px;
+    color: #4e4343;
+   
+}
+
+.problems-container h2{
+    color: #000;
+}
+.problemss {
+    clear: both; /* Clear the floats to prevent text from wrapping around images */
+}
+
+
+
+.jeff img {
+    display: block; /* Ensures the image is centered */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image does not exceed its container width */
+    height: auto; /* Allows the image to scale proportionally */
+    max-height: 600px; /* Sets the maximum height of the image */
+    margin-top: 70px;
+    border-radius: 10px; /* Adds curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 32); /* Increased shadow effect */
+}
+
+
+
+.lessons {
+    margin: 0 auto;
+    max-width: 900px; /* Maximum width of the sections */
+    text-align: justify; /* Justify text for a more formal appearance */
+    color: #4e4343;
+    margin-top: 70px;
+    margin-bottom: 50px; /* Adjust as needed */
+    padding: 0 80px; /* Add padding to match the margin */
+    text-align: left;
+    margin-left: 4px;
+    line-height: 1.5; 
+    float: left;
+}
+
+.lessons h2{
+    color: #000;
+}
