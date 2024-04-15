@@ -78,6 +78,31 @@ h1 span.developer {
     margin-left: 8cm;
     color: #4e4343;
 }
+
+
+.experience {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 8cm;
+    color: #4e4343;
+}
+
+.experience h2{
+    text-align: center;
+    margin-right: 1cm;
+    font-size: 23px;    color: #000;
+}
+.experience h3{
+    color: #000;
+    text-align: center;
+    margin-right: 1cm;
+
+}
+
 .myskills {
     color: black; /* Set text color to black */
    margin-left: 4cm;

@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dialectintro h1 {
+    font-size: 44px; 
+    color: #000;
+
+}
+
+
+.dialectintro {
+    width: 80%;
+    margin: 0 auto; 
+    line-height: 1.5; 
+    max-width: 900px; 
+    text-align: justify; 
+    margin-top: 70px;
+    color: #4e4343;
+    margin-left: 80px;
+}
+
+.dialectdecodedstack {
+    display: flex;
+   margin-left: 80px;
+   margin-top: 70px;
+   max-width: 65%;
+}
+
+.dialectdecodedstack .row {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.dialectdecodedstack h3 {
+    color: #000;
+}
+
+.dialectdecodedstack ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dialectdecodedstack ul li {
+    margin-bottom: 10px;
+}
