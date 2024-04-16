@@ -262,3 +262,35 @@ h1 span.developer {
 .project-details button:hover {
     background-color: #2980b9; /* Darken background color on hover */
 }
+
+
+.blogimage img {
+    display: block; /* Ensures the image is centered */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image does not exceed its container width */
+    height: auto; /* Allows the image to scale proportionally */
+    max-height: 600px; /* Sets the maximum height of the image */
+    margin-top: 70px;
+    border-radius: 10px; /* Adds curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 32); /* Increased shadow effect */
+}
+
+
+.blogsintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: center; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 7cm;
+    color: #4e4343;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+
+}
+
+.blogimage h2{
+    text-align: center;
+}

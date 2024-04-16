@@ -146,6 +146,7 @@
 </div>
 
 <div id="projects1" class="projects1">
+    
     {% for project in projects %}
     <div class="project-item">
         <img src="{{ project.image.url }}" alt="{{ project.title }}">
@@ -160,3 +161,18 @@
     </div>
     {% endfor %}
 </div>
+
+
+<div id="blogs" class="blogimage">
+    <h2>Blogs</h2>
+    <img src="{% static 'images/blog.png' %}" alt="python">
+    
+ </div>
+
+ <div class="blogsintro">
+   <p>Blogging is a  Great Way to Share Your <span class="highlight">Learnings.</span>
+   </p>
+   <p>Check out few of my Blogs that I have dedicated my Time to! </p>
+ </div>
+
+
