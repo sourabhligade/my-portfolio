@@ -164,7 +164,7 @@ h1 span.developer {
     text-align: center;
     background-color: #000; /* Set background color to black */
     color: #fff; /* Set text color to white */
-    margin-left: 2cm;
+    margin-left: 3cm;
     margin-top: 1cm;
        
 }
@@ -293,4 +293,82 @@ h1 span.developer {
 
 .blogimage h2{
     text-align: center;
+}
+
+.blog-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.blog img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 32px;
+}
+
+.blog-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+.blog-img:hover {
+    box-shadow: 0 14px 83px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Center the title */
+}
+
+
+.blog:hover img {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+
+
+.blog:hover .blog-title {
+    opacity: 1; /* Show title on hover */
+}
+.footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.contact-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-links li a:hover {
+    color: #3498db; /* Change color on hover */
 }
