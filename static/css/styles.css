@@ -1,0 +1,374 @@
+/* styles.css */
+
+
+/* CSS rules */
+body {
+    background-color: #f0f0f0; /* Set background color */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 10px; /* Add padding to the navbar */
+}
+
+.navbar a {
+    margin-right: 16px; /* Add spacing between buttons */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+}
+.navbar a:hover {
+    color: #3498db; /* Change text color on hover */
+}
+
+
+
+.container {
+    display: flex;
+    max-width: 800px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px; /* Add padding around content */
+    background-color: #fff; /* Set background color for container */
+    border-radius: 10px; /* Add border radius */
+}
+
+h1 {
+    color: #333; /* Set text color */
+    margin-left: 200px;
+    margin-top: 320px;
+    margin-bottom: ;
+    size:4cm;
+}
+
+/* Change the color of the word "Developer" to light blue */
+h1 span.developer {
+    color: #3498db; /* Light blue color */
+}
+
+.image-container {
+    margin-left: 22cm; /* Move image container to the right */
+    margin-top: -9cm;
+}
+.image-container img {
+    width: 450px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Add spacing between image and h1 */
+}
+
+.container {
+    position: relative;
+}
+
+.image-container {
+    margin-bottom: 20px; /* Add margin to create space between image and paragraphs */
+}
+
+.highlight {
+    color: #3498db; /* Set text color to light blue */
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 8cm;
+    color: #4e4343;
+}
+
+
+.experience {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 8cm;
+    color: #4e4343;
+}
+
+.experience h2{
+    text-align: center;
+    margin-right: 1cm;
+    font-size: 23px;    color: #000;
+}
+.experience h3{
+    color: #000;
+    text-align: center;
+    margin-right: 1cm;
+
+}
+
+.myskills {
+    color: black; /* Set text color to black */
+   margin-left: 4cm;
+   font-size: 23px;
+   
+}
+
+
+.skillintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: justify; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 7cm;
+    color: #4e4343;
+    margin-top: 0cm;
+    
+}
+.projectsintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: center; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 7cm;
+    color: #4e4343;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+
+}
+
+.skills {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 4cm;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 5cm;
+    margin-top: 3cm;
+    color: #4e4343;
+    
+   
+}
+
+
+.category {
+    flex: 1;
+    margin: 10px auto; /* Adjusted margin to center the boxes */
+    margin-top: 2.5cm;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    margin-left: 3cm;
+    margin-top: 1cm;
+       
+}
+
+
+
+
+.category:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Increase size by 5% on hover */
+    color: #3498db;
+
+}
+
+.category-title {
+    text-align: center; /* Center the title horizontally */
+    
+}
+
+.category ul {
+    padding-left: 0; /* Remove default padding */
+    list-style: none; /* Remove default bullet points */
+}
+
+.category ul li {
+    margin-bottom: 10px; /* Add space between each skill */
+}
+
+.projects h2 {
+    text-align: center;
+    margin-top: 5cm;
+}
+.projects1 {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Distribute items evenly with space between */
+}
+
+
+.projects1 img {
+    max-width: 140%; /* Set the maximum width to fit its container */
+    max-height: 350px; /* Set the maximum height to 200 pixels */
+    border-radius: 10px;
+}
+
+
+.project-item {
+    background-color: #cdc6d1; /* Set background color for the container */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    padding: 25px; /* Add padding to the container */
+    margin-bottom: 20px; /* Add spacing between project items */
+    overflow: hidden;
+    box-sizing: border-box; /* Include border and padding within the width */
+    margin: 45px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 342); /* Increased shadow effect */
+
+
+}
+.project-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05); /* Zoom in slightly on hover */
+    
+
+}
+
+
+
+.project-item img {
+    display: block; /* Ensure the image is a block element */
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    margin-bottom: 10px; /* Add spacing between image and project info */
+    border-radius: 10px;
+}
+
+
+.project-details {
+    margin-top: 10px; /* Add space between image and title */
+    text-align: center; /* Center the title and description */
+}
+
+/* Button styles *//* Button styles */
+.project-details button {
+    background-color: #3498db; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+/* Button hover effect */
+.project-details button:hover {
+    background-color: #2980b9; /* Darken background color on hover */
+}
+
+
+.blogimage img {
+    display: block; /* Ensures the image is centered */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures the image does not exceed its container width */
+    height: auto; /* Allows the image to scale proportionally */
+    max-height: 600px; /* Sets the maximum height of the image */
+    margin-top: 70px;
+    border-radius: 10px; /* Adds curved edges */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 32); /* Increased shadow effect */
+}
+
+
+.blogsintro {
+    width: 80%;
+    margin: 0 auto; /* Center paragraphs horizontally */
+    line-height: 1.5; /* Set line height for better readability */
+    max-width: 900px; /* Maximum width of intro section */
+    text-align: center; /* Justify text for a more formal appearance */
+    margin-top: 3.2cm;
+    margin-left: 7cm;
+    color: #4e4343;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+
+}
+
+.blogimage h2{
+    text-align: center;
+}
+
+.blog-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.blog img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 32px;
+}
+
+.blog-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+.blog-img:hover {
+    box-shadow: 0 14px 83px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center; /* Center the title */
+}
+
+
+.blog:hover img {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+
+
+.blog:hover .blog-title {
+    opacity: 1; /* Show title on hover */
+}
+.footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.contact-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact-links li a:hover {
+    color: #3498db; /* Change color on hover */
+}
