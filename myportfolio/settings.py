@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*&kf@-4cw9(ps84x%9xiw$agt7$-mxfajn3c9-%8dgm!hpg-cq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://my-portfolio-production-e6e3.up.railway.app', 'www.yourdomain.com']
 
 
 # Application definition
@@ -143,3 +143,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+
+SECURE_HSTS_SECONDS = 31536000  # 1 year in seconds
+SECURE_SSL_REDIRECT = True
+
+from django.core.management.utils import get_random_secret_key
+
+SECRET_KEY = get_random_secret_key()
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
