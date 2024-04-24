@@ -2,11 +2,9 @@
     "builds": [
       {
         "src": "myportfolio/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
         "config": {
           "maxLambdaSize": "15mb",
-          "runtime": "python3.9",
-          "postBuildCommand": "mkdir -p ./output && mv myportfolio/wsgi.py ./output"
+          "runtime": "python3.9"
         }
       }
     ],
