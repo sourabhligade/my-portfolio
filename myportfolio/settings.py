@@ -25,7 +25,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 # SECURITY WARNING: Set ALLOWED_HOSTS to your domain(s)
-ALLOWED_HOSTS = ['vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['*.vercel.app', '127.0.0.1']
 
 # Application definition
 
@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'myportfolio.wsgi.application'
+WSGI_APPLICATION = 'myportfolio.wsgi.app'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
