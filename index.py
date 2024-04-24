@@ -1,1 +1,1 @@
-from myportfolio.wsgi import application
+from myportfolio.wsgi import app
