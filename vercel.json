@@ -1,3 +1,4 @@
+
 {
     "builds": [{
         "src": "myportfolio/wsgi.py",
@@ -12,5 +13,11 @@
             "src": "/(.*)",
             "dest": "myportfolio/wsgi.py"
         }
-    ]
+    ],
+    "postBuild": {
+        "commands": [
+            "mkdir -p ./output",
+            "mv myportfolio/wsgi.py ./output"
+        ]
+    }
 }
