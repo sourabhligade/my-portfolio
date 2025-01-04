@@ -14,3 +14,6 @@ def project_detail(request, project_id):
     template_name = 'portfolio/dialect.html'  # Template for Wormy Reads project
 
     return render(request, 'project_detail.html', {'project': project, 'template_name': template_name})
+
+
+# Path: portfolio/urls.py

@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'juv^rw+x=t(#v4q0#*-jd$+y!4&--ct544-76=+=zx2ls0#*md'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # SECURITY WARNING: Set a value for SECURE_HSTS_SECONDS
 SECURE_HSTS_SECONDS = 31536000  # Example value for one year
@@ -25,7 +25,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 # SECURITY WARNING: Set ALLOWED_HOSTS to your domain(s)
-ALLOWED_HOSTS = ['*.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['vercel.app', '127.0.0.1',"myportfolio-kd3cfs8hy-sourabhligades-projects.vercel.app"]
 
 # Application definition
 
