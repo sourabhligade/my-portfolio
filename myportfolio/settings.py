@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'juv^rw+x=t(#v4q0#*-jd$+y!4&--ct544-76=+=zx2ls0#*md'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production!ss
 DEBUG = True
 
 # SECURITY WARNING: Set a value for SECURE_HSTS_SECONDS
