@@ -3,7 +3,6 @@
 import os
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'juv^rw+x=t(#v4q0#*-jd$+y!4&--ct544-76=+=zx2ls0#*md'
